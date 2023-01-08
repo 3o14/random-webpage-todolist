@@ -11,6 +11,8 @@
 
 #clock {
     font-size: 5rem;
+    margin: auto;
+    padding-top: 10rem;
 }
 
 input {
