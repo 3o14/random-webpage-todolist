@@ -10,21 +10,62 @@
 }
 
 #clock {
-    font-size: 5rem;
-    margin: auto;
-    padding-top: 10rem;
+  font-size: 5rem;
+  margin: auto;
+  padding-top: 10rem;
 }
 
 input {
-    border-top: none;
-    border-left:none;
-    border-right: none;
-    border-bottom: 3px white solid;
-    background-color:transparent; 
-    text-align: center;
-    color: aliceblue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px white solid;
+  background-color: transparent;
+  text-align: center;
+  color: aliceblue;
+  width: 20rem;
 }
-input:focus{
-    outline: none;   /* 아웃라인 지우기 */
-    color: white 
-    }
+input:focus {
+  outline: none; /* 아웃라인 지우기 */
+  color: white;
+}
+
+#btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: red;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+}
+#btn:hover,
+#btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+
+#btn {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#btn:hover {
+  box-shadow: 0 0 40px 40px red inset;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+#list-item {
+    padding-left: 0.5rem;
+}
+
+#li {
+    padding-bottom: 0.5rem;
+}
